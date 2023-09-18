@@ -1,9 +1,34 @@
 body{
-    background-color: rgb(255, 229, 204);
+    background-image: url("./img/showcase (1).jpg")
 }
 h1{
     text-align: center;
-    color: black;
-    font: 50;
+    color: blue;
+    background-color: yellow;
+    font: Roboto mono;
     font-size: x-large;
+}
+h2{
+    text-align: center;
+}
+
+.div_style{
+    margin: 20px;
+border: 2px solid black;
+padding: 20px;
+background-color: gray;
+}
+
+.sid_fot{
+    background-image: url("./img/logo-html-css-js.png");
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nyhets_div{
+    display: flex;
+    flex-direction: row;
 }
